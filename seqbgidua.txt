@@ -1,0 +1,44 @@
+nama : evinda 
+nim :16 111 193
+kls : tif 16 k
+
+program pencarian seq bagi dua kita membuat sebuah var x dg tipe int yg berada dlm sebuah array dg ukurn yg tidak beraturn
+ disini( kita mengisi dg angka 2 sampai 11)
+kemudiankita membuat var cari ,i ,j , k yg bertipe intger,yg akan di cari pd proses slnjutnya
+ bbuat proses inputan pencarian yg akan di simpan pada variabel cari,
+kemudian kita membuat 3 bbuah  variabel untuk menginisialisasikan batas kiri  (i = 0) tengh(k = i +j /2) dan kanan ( j = 9)
+menggunakan proses pengulangan while ( i<= j) yg berarti jika i masih  <= j makan pencarian akan terus berlanjut sampai
+i <=j baru proses akan berhenti
+kemudian if (X[k]== cari yng berarti jika nilai array sama dengan yg kita cari d i temukan proses ini akan otomatis menampilkan
+ lokasi array yg kita cari kemudian proses akan  d berentikan.
+else if (X[k] < cari { i = k + 1} else {j = k- 1}
+namun jika nilai array < nilaiyg kita cari maka program akan menginisialisasi batas kiri dr btas tengah tapi jika nilai 
+array  > dr nilai yg kita cari makanakan menginisialisasi batas kanan dr batas tengah.
+jika nilai yg kita cari berada pada batas kiri maka niali i akan berubah bukan 0 lg ttpi mjd nilai antara  hasil k
+(batas tenngah) + 1.
+jika nilai yg kita cari berada pd batas kanan makan nilai j juga akan berubah bukan 9 lgi ttpi mjd nilai  antara k - 1.
+ setelah nilai k berubah maka program  kan kembali kelangkah ke 7hingga nilai yg kita cari sma dg isi array pd var x.
+ kemudian jika nilai i lebih besar dr j maka dat tidak di temukan.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 9
